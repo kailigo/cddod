@@ -2,13 +2,18 @@
 
 
 ## Introduction
+
+The majority of this project was done during the internship of the first author in the company. By the company's legal policy, only part of the code and dataset can be released. 
+This repo provides a demo of how to use the proposed benchmark dataset.
+
 The code is heavily developed based on this [repo](https://github.com/VisionLearningGroup/DA_Detection), which is based on 
 the [faster-rcnn repository](https://github.com/jwyang/faster-rcnn.pytorch). Refer these two repos for environment setup. 
+
 
 ## Prepare the data
 * Download the "Chs" and "PubMed" datasets [here](https://drive.google.com/file/d/1m4ns2gbl3d4fcms5Ta6IS80g964sn_b2/view?usp=sharing). The datasets have been organized in the "Pascal_VOC" format.
 
-* write the path in __C.VGG_PATH and __C.RESNET_PATH at lib/model/utils/config.py.
+* Write the path in __C.VGG_PATH and __C.RESNET_PATH at lib/model/utils/config.py.
 
 
 ## Train
